@@ -18,9 +18,9 @@ int main()
     printf("%d / %f = %f\n", a, d, sum3);
     printf("%c + %d = %c\n", e, a, sum4);
 
-    /* Dzialania miedzy w/w typami danych zachodz¹, jesli zmiennej przechowujacej wynik jest typem odpowiadaj¹cym wynikowi
-    (tzn. float + int = float, ale float + int != int, bo usunie nam wartosci po przecinku). Dla typu char, dzia³ania wykonuja
-    siê, lecz tylko zmieniaja indeks wartoœæ (A+2==c, poniewaæ C jest oddalone od litery A o 2 miejsca).*/
+    /* Dzialania miedzy w/w typami danych zachodzÂ¹, jesli zmienna przechowujaca wynik jest typem odpowiadajÂ¹cym wynikowi
+    (tzn. float + int = float, ale float + int != int, bo usunie nam wartosci po przecinku). Dla typu char, dziaÂ³ania wykonuja
+    siÃª, lecz tylko zmieniaja indeks wartoÅ“Ã¦ (A+2==c, poniewaÃ¦ C jest oddalone od litery A o 2 miejsca).*/
 
     return 0;
 }
