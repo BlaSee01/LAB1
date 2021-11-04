@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1636031512 source:c:\users\user\desktop\moje\studia\wdi - Æwiczenia\lab1\lab1\zad5\main.c
+	<stdio.h>
+	<stdlib.h>
+
