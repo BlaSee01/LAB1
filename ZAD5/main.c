@@ -16,7 +16,7 @@ int main()
         }
     }
 
-    //  PROGRAM WYPISUJE WSZYSTKIE LICZBY PARZYSTE ZE ZBIORU X={n,n+1,n+2,...,n+10)
+    //  PROGRAM WYPISUJE WSZYSTKIE LICZBY PARZYSTE ZE ZBIORU X={n,n+1,n+2,...,n+10), WYKORZYSTUJE n+=1 oraz i++
 
     printf("\n");
 
@@ -30,6 +30,23 @@ int main()
     printf("4/=0.5, to %d\n" , a);
     a-=c;
     printf("8-=7, to %d\n" , a);
+
+    // PONADTO
+
+    int i = 10;
+    int x = 2;
+
+    i=++x;
+    printf("\nWynikiem i=++x, gdzie i = 10 ; x = 2 sa: i = %d , n = %d.\n" , i , x);
+
+    i = 10;
+    x = 2;
+
+    i=x++;
+
+    printf("\nWynikiem i=x++, gdzie i = 10 ; x = 2 sa: i = %d , n = %d.\n" , i , x);
+
+    //  WNIOSKI: DLA KAZDEGO Z DZIALAN (+,-,*,/) PREINKREMENTACJA BEDZIE POWODOWAC ZMIANE WARTOSCI OBU ZMIENNYCH (i, x), A  POSTINKREMENTACJA DODARKOWO NIE ZMIENIA WARTOSCI i o +1
 
     return 0;
 }
